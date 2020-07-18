@@ -1,6 +1,6 @@
 {
   "name": "coanmo-which-imports-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shows how to import and use a CoAnMo Plugin — in this case, ‘coanmo-plugin-cli’.",
   "main": "index.html",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "rm -rf docs && parcel build -d docs --public-url /CoAnMo-Which-Imports-CLI/ index.html"
   },
   "dependencies": {
-    "coanmo-plugin-cli": "1.0.9"
+    "coanmo-plugin-cli": "1.0.10"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1",

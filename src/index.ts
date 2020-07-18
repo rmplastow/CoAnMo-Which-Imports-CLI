@@ -40,7 +40,7 @@ class CoAnMoWhichImportsCLI {
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.4",
+  "1.0.5",
   "#coanmo-which-imports-cli",
   document
 );
