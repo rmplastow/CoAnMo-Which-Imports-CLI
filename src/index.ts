@@ -36,9 +36,10 @@ class CoAnMoWhichImportsCLI {
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.1",
+  "1.0.2",
   "#coanmo-which-imports-cli",
   document
 );
 
 window.addEventListener("message", coanmo.receiveMessage, false);
+window.addEventListener("message", () => alert('Got something!'), false);
