@@ -26,17 +26,21 @@ class CoAnMoWhichImportsCLI {
   }
 
   receiveMessage(event: MessageEvent) {
-    this.cli.log("BEGIN");
-    this.cli.log(Object.keys(event).join());
-    this.cli.log(event.origin);
-    this.cli.log(JSON.stringify(event.data));
-    this.cli.log("END");
+    // this.cli.log("BEGIN");
+    // this.cli.log(Object.keys(event).join()); // just 'isTrusted'
+    // this.cli.log(event.origin);
+    // this.cli.log(JSON.stringify(event.data));
+    // this.cli.log("END");
+
+    // @TODO add validation and security
+    if (typeof event.data === 'string')
+      this.cli.run(event.data)
   }
 }
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.3",
+  "1.0.4",
   "#coanmo-which-imports-cli",
   document
 );
