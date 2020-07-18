@@ -1,0 +1,23 @@
+{
+  "name": "coanmo-which-imports-cli",
+  "version": "1.0.0",
+  "description": "Shows how to import and use a CoAnMo Plugin — in this case, ‘coanmo-plugin-cli’.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "rm -rf docs && parcel build -d docs --public-url /CoAnMo-Which-Imports-CLI/ index.html"
+  },
+  "dependencies": {
+    "coanmo-plugin-cli": "1.0.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^3.9.6"
+  },
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/coanmo-which-imports-cli-jwviq",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmplastow/CoAnMo-Which-Imports-CLI"
+  }
+}

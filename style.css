@@ -1,0 +1,34 @@
+body {
+  background: #113;
+  color: #669;
+  font: 10px/1.5 Arial, sans-serif;
+}
+h1 {
+  color: #669;
+}
+
+#coanmo-which-imports-cli .stdin {
+  border: 2px solid transparent;
+  color: #eee;
+  transition: border-color 0.5s;
+}
+#coanmo-which-imports-cli .stdin:focus {
+  border-color: #fff6;
+  outline: none !important;
+}
+#coanmo-which-imports-cli .stdout {
+  height: 200px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  overflow-y: scroll;
+  color: #99f;
+}
+#coanmo-which-imports-cli .stdin,
+#coanmo-which-imports-cli .stdout {
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: #0009;
+  font: 12px/20px Monaco, monospace;
+}
