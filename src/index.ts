@@ -26,20 +26,23 @@ class CoAnMoWhichImportsCLI {
   }
 
   receiveMessage(event: MessageEvent) {
+    this.cli.log("BEGIN");
     this.cli.log(Object.keys(event).join());
-    this.cli.log(event.origin)
-    if (event.source instanceof Window)
-      this.cli.log(JSON.stringify(event.source.COANMO_GLOBAL_OBJECT))
-    this.cli.log(JSON.stringify(event.data))
+    this.cli.log(event.origin);
+    this.cli.log(JSON.stringify(event.data));
+    this.cli.log("END");
   }
 }
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.2",
+  "1.0.3",
   "#coanmo-which-imports-cli",
   document
 );
 
-window.addEventListener("message", coanmo.receiveMessage, false);
-window.addEventListener("message", () => alert('Got something!'), false);
+window.addEventListener(
+  "message",
+  (event: MessageEvent) => coanmo.receiveMessage(event),
+  false
+);
