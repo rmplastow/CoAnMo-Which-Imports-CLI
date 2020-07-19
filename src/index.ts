@@ -1,3 +1,4 @@
+import './style';
 import { CoAnMoPluginCliV1 } from "coanmo-plugin-cli";
 import { actions } from "./Actions/actions";
 
@@ -30,7 +31,7 @@ class CoAnMoWhichImportsCLI {
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.6",
+  "1.0.7",
   "#coanmo-which-imports-cli",
   document
 );
