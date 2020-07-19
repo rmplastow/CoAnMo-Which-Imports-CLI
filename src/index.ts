@@ -1,10 +1,10 @@
 import "./style";
 import { name, version } from "../package.json";
-import { CoAnMoPluginCliV1 } from "coanmo-plugin-cli";
+import { CoAnMoPluginCli } from "coanmo-plugin-cli";
 import { actions } from "./Actions/actions";
 
 class CoAnMoWhichImportsCLI {
-  private cli: CoAnMoPluginCliV1;
+  private cli: CoAnMoPluginCli;
 
   constructor(
     private name: string,
@@ -12,7 +12,7 @@ class CoAnMoWhichImportsCLI {
     selector: string,
     doc: HTMLDocument
   ) {
-    this.cli = new CoAnMoPluginCliV1(
+    this.cli = new CoAnMoPluginCli(
       name,
       version,
       `${selector} .stdin`,

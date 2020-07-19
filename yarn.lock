@@ -1458,10 +1458,10 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
-coanmo-plugin-cli@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/coanmo-plugin-cli/-/coanmo-plugin-cli-1.0.10.tgz#55740daee87a580b0c4ad4fd3b891d1ac3c17a51"
-  integrity sha512-9zjmcUvZ3/DaTirk1D+9UzUA/fZ9eiZ+l8drq1n7WLl9hYWpdd7/AjGgWEwkNnmDTjIskB29rzAmILLytk0wEw==
+coanmo-plugin-cli@1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/coanmo-plugin-cli/-/coanmo-plugin-cli-1.1.9.tgz#e4b221fe8defe8127bf05ee5b992b686f8c1a4f7"
+  integrity sha512-BJkLcL6NIWXnH7fwDEQ/3SxFPipSRZoJHcMfXQfpyEALMDh11/PzOJP9yyDVQZGnJY+O/UXd734UPwltm5kmFA==
 
 collection-visit@^1.0.0:
   version "1.0.0"
