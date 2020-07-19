@@ -85,10 +85,21 @@ body.hue-magenta {
   --hue-shift: 300;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  margin: 0;
+  padding: 0 10px;
   background: var(--body-bg-color);
   color: var(--body-color);
   font: 10px/1.5 Arial, sans-serif;
+}
+
+h1 {
+  margin: 5px 0;
 }
 
 .stdin,
@@ -116,7 +127,8 @@ body {
   color: var(--stdin-color);
 }
 .stdout {
-  height: 200px;
+  height: 210px;
+  margin: 6px 0 10px 0;
   white-space: pre-wrap;
   overflow: hidden;
   overflow-y: scroll;
