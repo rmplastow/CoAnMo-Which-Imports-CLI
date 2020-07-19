@@ -1,6 +1,6 @@
 {
   "name": "coanmo-which-imports-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Shows how to import and use a CoAnMo Plugin — in this case, ‘coanmo-plugin-cli’.",
   "main": "index.html",
   "scripts": {

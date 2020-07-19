@@ -2,7 +2,6 @@ import { CoAnMoPluginCliV1 } from "coanmo-plugin-cli";
 import { actions } from "./Actions/actions";
 
 class CoAnMoWhichImportsCLI {
-  // private $wrap: HTMLDivElement | null;
   private cli: CoAnMoPluginCliV1;
 
   constructor(
@@ -11,8 +10,6 @@ class CoAnMoWhichImportsCLI {
     selector: string,
     doc: HTMLDocument
   ) {
-    // this.$wrap = doc.querySelector(selector);
-
     this.cli = new CoAnMoPluginCliV1(
       name,
       version,
@@ -26,21 +23,14 @@ class CoAnMoWhichImportsCLI {
   }
 
   receiveMessage(event: MessageEvent) {
-    // this.cli.log("BEGIN");
-    // this.cli.log(Object.keys(event).join()); // just 'isTrusted'
-    // this.cli.log(event.origin);
-    // this.cli.log(JSON.stringify(event.data));
-    // this.cli.log("END");
-
     // @TODO add validation and security
-    if (typeof event.data === 'string')
-      this.cli.run(event.data)
+    if (typeof event.data === "string") this.cli.run(event.data);
   }
 }
 
 const coanmo = new CoAnMoWhichImportsCLI(
   "CoAnMo Which Imports CLI",
-  "1.0.5",
+  "1.0.6",
   "#coanmo-which-imports-cli",
   document
 );

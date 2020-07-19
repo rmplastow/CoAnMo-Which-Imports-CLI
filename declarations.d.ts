@@ -8,9 +8,3 @@ interface Array<T> {
     thisArg?: any
   ): T | undefined;
 }
-
-interface Window {
-  COANMO_GLOBAL_OBJECT: {
-    [key:string]: string | number | boolean | null
-  }
-}
