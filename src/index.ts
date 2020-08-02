@@ -10,14 +10,16 @@ class CoAnMoWhichImportsCLI {
     private name: string,
     private version: string,
     selector: string,
-    doc: HTMLDocument
+    doc: HTMLDocument,
+    meta: string,
   ) {
     this.cli = new CoAnMoPluginCli(
       name,
       version,
       `${selector} .stdin`,
       `${selector} .stdout`,
-      doc
+      doc,
+      meta,
     );
 
     this.cli.addActions(actions);
@@ -34,7 +36,8 @@ const coanmo = new CoAnMoWhichImportsCLI(
   name,
   version,
   "#coanmo-which-imports-cli",
-  document
+  document,
+  'Some Meta String!'
 );
 
 window.addEventListener(
