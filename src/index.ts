@@ -20,6 +20,7 @@ class CoAnMoWhichImportsCLI {
       `${selector} .stdout`,
       doc,
       meta,
+      window.localStorage
     );
 
     this.cli.addActions(actions);
