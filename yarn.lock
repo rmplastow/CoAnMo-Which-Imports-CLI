@@ -1458,10 +1458,10 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
-coanmo-plugin-cli@1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/coanmo-plugin-cli/-/coanmo-plugin-cli-1.1.9.tgz#e4b221fe8defe8127bf05ee5b992b686f8c1a4f7"
-  integrity sha512-BJkLcL6NIWXnH7fwDEQ/3SxFPipSRZoJHcMfXQfpyEALMDh11/PzOJP9yyDVQZGnJY+O/UXd734UPwltm5kmFA==
+coanmo-plugin-cli@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/coanmo-plugin-cli/-/coanmo-plugin-cli-1.2.5.tgz#30f2e2cb81e3f0b019008e269eeb5869e22ae45e"
+  integrity sha512-fZ6DkDv5Yl0rF7aOGAmo0+KdtvmXDzj+BZmosgfjYgN+qR9o4eu+MGxilLizlj+A/S4PSFxtGaTAWtPKFb0PVw==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -3052,9 +3052,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
